@@ -6,8 +6,8 @@ export default function Room() {
     return (
         <primitive
             object={gltf.scene}
-            castShadow
-            receiveShadow
+            castShadow={true}
+            receiveShadow={true}
             position={[-2, -1, 0]}
             scale={[0.7, 0.7, 0.7]}
         />
